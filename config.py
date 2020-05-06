@@ -2,7 +2,7 @@ import os
 
 class Config:
     SECRET_KEY =  os.environ.get('SECRET_KEY')
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://martin:madash@localhost/pitch'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://martin:madash@localhost/karuku'
     UPLOADED_PHOTOS_DEST = 'app/static/photo'
     MAIL_SERVER = 'smtp.googlemail.com'
     MAIL_PORT = 587
@@ -19,11 +19,11 @@ class prodConfig(Config):
 
 
 class DevConfig(Config):
-    SQLALCHEMY_DATABASE_URI =  'postgresql+psycopg2://martin:malkie@localhost/pitch'
+    SQLALCHEMY_DATABASE_URI =  'postgresql+psycopg2://martin:malkie@localhost/karuku'
     DEBUG = True
 
 class TestConfig(Config):
-    SQLALCHEMY_DATABASE_URI= 'postgresql+psycopg2://martin:malkie@localhost/pitch2'
+    SQLALCHEMY_DATABASE_URI= 'postgresql+psycopg2://martin:malkie@localhost/karuku'
 
 config_options = {
     'development': DevConfig,

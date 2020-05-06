@@ -8,7 +8,7 @@ from flask_mail import Mail
 from flask_simplemde import SimpleMDE
 from sqlalchemy import create_engine
 
-create_engine = 'postgresql+psycopg2://root:buttonupd@localhost/pitch'
+create_engine = 'postgresql+psycopg2://root:buttonupd@localhost/karuku'
 simple = SimpleMDE()
 login_manager = LoginManager()
 login_manager._session_protection = 'strong'
