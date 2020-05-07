@@ -1,1 +1,1 @@
-SECRET_KEY = 'THE DAY COMMETH'
+SECRET_KEY = 'madash'

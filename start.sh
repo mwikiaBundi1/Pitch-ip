@@ -1,4 +1,4 @@
-SECRET_KEY='madash'
+export SECRET_KEY='madash'
 export MAIL_USERNAME='mwikiam@gmail.com'
-export MAIL_PASSWORD='madashmartin'
-python3.6 manage.py server
+export MAIL_PASSWORD='ehflvnxhujgqlqbx'
+python3 manage.py server

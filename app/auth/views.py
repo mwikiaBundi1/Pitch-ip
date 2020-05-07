@@ -18,7 +18,7 @@ def login():
 
             flash('invalid login details')
 
-    title = "1, 2 and Go! login"
+    title = "Welcome to my pith! login"
     return render_template('auth/login.html', login_form=login_form, title=title)
 
 
@@ -29,8 +29,8 @@ def register():
         user = User(email = form.email.data,
         author = form.author.data,
         password = form.password.data)
-
         db.session.add(user)
+    
         db.session.commit()
 
         mail_message("Welcome Home!","email/welcome_user",user.email,user=user)
