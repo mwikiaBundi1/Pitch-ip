@@ -23,5 +23,5 @@ Known bugs
 There are no known bugs as at now if any you can contact me at mwikiam@gmail.com
 
 Licence
-MIT LICENCE
+
 MIT copyright (c) 2020 Martin Mwikia
